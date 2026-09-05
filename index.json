@@ -1,5 +1,5 @@
 {
-	"version": 1,
+	"version": 2,
 	"templates": [
 		{
 			"slug": "level-blockout",
@@ -42,6 +42,30 @@
 			"bytes": 3380,
 			"scene": "examples/lighthouse-island/scene.tpscene",
 			"thumb": "examples/lighthouse-island/thumb.webp"
+		}
+	],
+	"games": [
+		{
+			"slug": "towers",
+			"title": "Towers",
+			"description": "Co-op crate stacking: grab the crates, build the tallest tower on the glowing pad, climb to the stars. Press P to pause or restart.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"physics",
+				"stacking",
+				"co-op",
+				"vr"
+			],
+			"modules": [
+				{
+					"id": "collectible",
+					"version": "1.0.0"
+				}
+			],
+			"bytes": 13166,
+			"scene": "games/towers/scene.tpscene",
+			"thumb": "games/towers/thumb.webp"
 		}
 	]
 }
