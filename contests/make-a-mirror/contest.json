@@ -1,0 +1,11 @@
+{
+	"slug": "make-a-mirror",
+	"title": "Make a mirror",
+	"brief": "Build the mirror image of the sculpture on the right side of the glowing line. Use the ghost as a guide, or hide it to test yourself (select the **Ghost** group and hide it). Every piece is a primitive: mirror its position across the line and mind the rotations — a reflection turns a left-handed twist into a right-handed one.\n\nDo it alone or **all together**: host the starter, share the invite link, build in one session and publish once from the host with everyone credited in `authors`. Co-built entries are welcome.\n\nJudged on accuracy and on what you add: lighting, a look, a motion.",
+	"rules": "- Primitives and your own assets — no duplicating the ghost.\n- The **Ghost** group must be hidden or removed in the entry.\n- One entry per person (or per co-built session); updates allowed until the contest closes.",
+	"starter": "contests/make-a-mirror/scene.tpscene",
+	"durationDays": 14,
+	"opensAfterDays": 0,
+	"judging": "top 3 by likes + Judge's pick; winners get featured",
+	"credits": []
+}

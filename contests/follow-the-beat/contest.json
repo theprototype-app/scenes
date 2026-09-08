@@ -1,0 +1,19 @@
+{
+	"slug": "follow-the-beat",
+	"title": "Follow the beat",
+	"brief": "Make the scene move with the track: animate objects to the beat, cut between cameras on the bars, add a look. The starter gives you the clock — a **Conductor** whose clip carries a marker on every beat and every bar, a light that pulses on the beat and three cameras that cut on the bars. Open the node editor to see how, then make it yours. Entries are judged in play mode from the **Wide** camera.\n\nDo it alone or **all together**: host the starter, share the invite link, build in one session and publish once from the host with everyone credited in `authors`. Co-built entries are welcome.",
+	"rules": "- Keep the track (it ships inside the scene, CC0).\n- Add anything: objects, clips, cameras, a look, a HUD.\n- The entry must play from **Start** without any other input.",
+	"starter": "contests/follow-the-beat/scene.tpscene",
+	"durationDays": 14,
+	"opensAfterDays": 7,
+	"judging": "top 3 by likes + Judge's pick; winners get featured",
+	"credits": [
+		{
+			"what": "track",
+			"title": "Happy Experimental Ethno Jazz Vocal Instruments Dance Cinematic Music 120Bpm Mastered",
+			"author": "szegvari",
+			"license": "CC0-1.0",
+			"source": "https://freesound.org/people/szegvari/sounds/622426/"
+		}
+	]
+}

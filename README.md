@@ -13,6 +13,9 @@ templates/<slug>/scene.tpscene starting-point scenes (General tab)
 templates/<slug>/thumb.webp    480x270 card thumbnail
 examples/<slug>/...            curated showcase scenes (Examples tab)
 games/<slug>/...               playable games (Games tab)
+contests/<slug>/scene.tpscene  contest STARTER scenes ("Start from the starter" on a contest page)
+contests/<slug>/thumb.webp     480x270 card thumbnail
+contests/<slug>/contest.json   the brief, rules, window and credits the contest page reads
 ```
 
 `index.json`:
@@ -60,6 +63,50 @@ loads in a current build.
   jsDelivr per-file cap).
 - A `.tpscene` is the app's session zip (`session.json` + optional `assets/`):
   save one from the app via logo menu ▸ Save ▸ Scene.
+
+## Contests
+
+`contests/` holds the STARTER scene of each contest plus the text its contest page
+shows. The index lists them in a `contests` array — optional like `games`, and **not
+read by the app**: the cloud repo's `scripts/seed-contests.mjs` reads it from a
+checkout, creates the `contests` records and uploads each starter under the org
+account, so the serving tag is not moved for a contest.
+
+```json
+	"contests": [
+		{
+			"slug": "make-a-mirror",
+			"title": "Make a mirror",
+			"description": "…",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": ["contest", "primitives", "co-op"],
+			"bytes": 12345,
+			"scene": "contests/make-a-mirror/scene.tpscene",
+			"thumb": "contests/make-a-mirror/thumb.webp",
+			"contest": "contests/make-a-mirror/contest.json"
+		}
+	]
+```
+
+`contest.json`:
+
+| key | meaning |
+| --- | --- |
+| `slug`, `title` | the contest's id and name (the same as the index row) |
+| `brief` | markdown, under 1500 chars — what to build and how it is judged |
+| `rules` | markdown, under 1500 chars — what an entry must and must not do |
+| `starter` | repo-relative path of the starter scene (always `contests/<slug>/scene.tpscene`) |
+| `durationDays` | how long the contest stays open |
+| `opensAfterDays` | offset from the FIRST contest's opening day; contests overlap by a week (0, 7, 14, …) |
+| `judging` | one line: how winners are picked |
+| `credits` | `[{ what, title, author, license, source }]` — every third-party asset the starter ships (a CC0 track, say), with its source URL |
+
+A starter that ships a track carries the bytes inside the `.tpscene` (`assets/`), so
+every entry plays the same file; the credit line above is where its license lives.
+Both starters here are authored by the core repo's `scripts/author-templates.cjs`
+(`--out <this checkout> --only make-a-mirror,follow-the-beat`) — the `kind: 'contest'`
+defs are the source of truth for the scenes, the briefs and the rules.
 
 ## Serving
 
