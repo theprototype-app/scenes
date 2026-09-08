@@ -67,5 +67,40 @@
 			"scene": "games/towers/scene.tpscene",
 			"thumb": "games/towers/thumb.webp"
 		}
+	],
+	"contests": [
+		{
+			"slug": "make-a-mirror",
+			"title": "Make a mirror",
+			"description": "Rebuild the sculpture on the left as its mirror image on the right of the glowing line. The faint ghost is the answer — hide it to test yourself.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"contest",
+				"primitives",
+				"co-op"
+			],
+			"bytes": 70802,
+			"scene": "contests/make-a-mirror/scene.tpscene",
+			"thumb": "contests/make-a-mirror/thumb.webp",
+			"contest": "contests/make-a-mirror/contest.json"
+		},
+		{
+			"slug": "follow-the-beat",
+			"title": "Follow the beat",
+			"description": "A 120 BPM track, a Conductor whose clip marks every beat and bar, a light that pulses on the beat and three cameras that cut on the bars. Press Start, then make the scene move. Track: \"Happy Experimental Ethno Jazz Vocal Instruments Dance Cinematic Music 120Bpm Mastered\" by szegvari (freesound, CC0 1.0).",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"contest",
+				"music",
+				"animation",
+				"cameras"
+			],
+			"bytes": 1682276,
+			"scene": "contests/follow-the-beat/scene.tpscene",
+			"thumb": "contests/follow-the-beat/thumb.webp",
+			"contest": "contests/follow-the-beat/contest.json"
+		}
 	]
 }
