@@ -66,6 +66,22 @@
 			"bytes": 13166,
 			"scene": "games/towers/scene.tpscene",
 			"thumb": "games/towers/thumb.webp"
+		},
+		{
+			"slug": "stars-room",
+			"title": "Stars Room",
+			"description": "A zero-gravity room full of glowing stars. Knock them with your hands in VR or walk into them; press P for the round: light every star, and see who touched the most.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"zero-g",
+				"physics",
+				"sandbox",
+				"vr"
+			],
+			"bytes": 34678,
+			"scene": "games/stars-room/scene.tpscene",
+			"thumb": "games/stars-room/thumb.webp"
 		}
 	],
 	"contests": [
