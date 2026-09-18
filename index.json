@@ -82,6 +82,28 @@
 			"bytes": 34678,
 			"scene": "games/stars-room/scene.tpscene",
 			"thumb": "games/stars-room/thumb.webp"
+		},
+		{
+			"slug": "football",
+			"title": "Football",
+			"description": "VR football: hit the floating ball with your hands, a ball through the other gate is a goal. Pick a side, Start, five goals wins. Colocation-ready.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"vr",
+				"competitive",
+				"colocation",
+				"physics"
+			],
+			"modules": [
+				{
+					"id": "football",
+					"version": "1.0.0"
+				}
+			],
+			"bytes": 18588,
+			"scene": "games/football/scene.tpscene",
+			"thumb": "games/football/thumb.webp"
 		}
 	],
 	"contests": [
