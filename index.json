@@ -128,6 +128,53 @@
 			"bytes": 35641,
 			"scene": "games/jam-room/scene.tpscene",
 			"thumb": "games/jam-room/thumb.webp"
+		},
+		{
+			"slug": "dungeon-realms",
+			"title": "Dungeon Realms",
+			"description": "Co-op dungeon crawl: a seeded five-floor dungeon, gems to collect, portals that unseal when enough are found, and a dragon’s hoard at the top. Join as Player 1 / 2, walk it together.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"co-op",
+				"procedural",
+				"vr",
+				"dungeon"
+			],
+			"modules": [
+				{
+					"id": "dungeon",
+					"version": "2.0.0"
+				},
+				{
+					"id": "dungeon-realms",
+					"version": "2.0.0"
+				}
+			],
+			"bytes": 9169,
+			"scene": "games/dungeon-realms/scene.tpscene",
+			"thumb": "games/dungeon-realms/thumb.webp"
+		},
+		{
+			"slug": "untangle",
+			"title": "Untangle",
+			"description": "A planar-graph puzzle on a lit board: drag the dots until no edges cross, then the next level appears. Every peer sees and solves the same board.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"puzzle",
+				"co-op",
+				"procedural"
+			],
+			"modules": [
+				{
+					"id": "untangle",
+					"version": "2.0.0"
+				}
+			],
+			"bytes": 8946,
+			"scene": "games/untangle/scene.tpscene",
+			"thumb": "games/untangle/thumb.webp"
 		}
 	],
 	"contests": [
