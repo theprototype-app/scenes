@@ -104,6 +104,30 @@
 			"bytes": 18588,
 			"scene": "games/football/scene.tpscene",
 			"thumb": "games/football/thumb.webp"
+		},
+		{
+			"slug": "jam-room",
+			"title": "Jam Room",
+			"description": "A piano into a speaker, a beat lab (transport, drum machine, sampler pads) and a pedal chain into a mixer - all cabled. Press Play on the transport, paint the grid, plug things in.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"music",
+				"vr"
+			],
+			"modules": [
+				{
+					"id": "music-lab",
+					"version": "0.2.0"
+				},
+				{
+					"id": "music-fx",
+					"version": "0.1.0"
+				}
+			],
+			"bytes": 35641,
+			"scene": "games/jam-room/scene.tpscene",
+			"thumb": "games/jam-room/thumb.webp"
 		}
 	],
 	"contests": [
