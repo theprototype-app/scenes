@@ -110,20 +110,34 @@ defs are the source of truth for the scenes, the briefs and the rules.
 
 ## Serving
 
-The app fetches `index.json` via the **tag-pinned** jsDelivr mirror
-(`https://cdn.jsdelivr.net/gh/theprototype-app/scenes@v2/...` — see `SCENES_BASE`
-in the core repo's `src/lib/sceneTemplates.js`). jsDelivr caches tags
-aggressively, so content releases are: commit → re-point the tag → the app
+The app fetches `index.json` via the **ref-pinned** jsDelivr mirror
+(`https://cdn.jsdelivr.net/gh/theprototype-app/scenes@format-2/...` — see `SCENES_BASE`
+in the core repo's `src/lib/sceneTemplates.js`). jsDelivr caches a ref for up to
+12 hours, so content releases are: commit → re-point the ref → purge → the app
 picks it up without a redeploy.
 
 ```
-git tag -f v2 && git push -f origin v2     # re-point the serving tag
+git tag -f format-2 && git push -f origin format-2     # re-point the serving ref
+curl https://purge.jsdelivr.net/gh/theprototype-app/scenes@format-2/index.json
+# ...and each NEW file path under the ref (games/<slug>/scene.tpscene, thumb.webp)
 ```
 
-The tag name tracks the INDEX FORMAT, and a format bump takes a NEW tag — never
-reuse an old one, because builds already in the wild keep reading the tag they were
-built against. `SCENES_BASE` in core and the serving tag here must move together:
-core pointing at a tag that does not exist yet is a 404, and the app falls back to
+**THE REF MUST NOT LOOK LIKE A VERSION.** jsDelivr parses a ref such as `v2` as a
+SEMVER VERSION (its data API lists this repo as `versions: ["1","2"], tags: {}`), and a
+version's files are cached PERMANENTLY (`cache-control: immutable`, one year) — a retag
+of `v2` is a NO-OP forever, and `purge.jsdelivr.net` reports `finished` without
+re-resolving it. Measured 2026-09-20 (core issue #230): 16 hours and four purges after
+the Jam Room retag, `scenes@v2/index.json` still listed three games while `@main` listed
+six. A ref that cannot be parsed as a version — tag or branch — is reported as
+`x-jsd-version-type: branch` with a 12-hour `s-maxage`, which is what makes the
+retag-and-purge ritual work. That is why the serving refs are `format-N`, never `vN`.
+`v1` and `v2` are DEAD: they stay exactly where jsDelivr first resolved them, for the
+builds that shipped against them.
+
+The ref name tracks the INDEX FORMAT, and a format bump takes a NEW ref — never
+reuse an old one, because builds already in the wild keep reading the ref they were
+built against. `SCENES_BASE` in core and the serving ref here must move together:
+core pointing at a ref that does not exist yet is a 404, and the app falls back to
 the small bundled seed with an empty Games tab.
 
 ## Adding a scene
