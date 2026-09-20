@@ -22,8 +22,10 @@ Files: scene.tpscene 9169 B · thumb.webp 3848 B · index-row.json (bytes 9169).
 1. `cp scene.tpscene thumb.webp <scenes>/games/dungeon-realms/`
 2. Append `index-row.json` to the `games` array of `<scenes>/index.json` (after `jam-room`).
 3. Commit on a branch, PR to `main`, merge; then the serving ritual:
-   `git tag -f v2 && git push -f origin v2` and purge the jsDelivr cache for
-   `gh/theprototype-app/scenes@v2/index.json` (+ the two new files).
+   `git tag -f format-2 && git push -f origin format-2` and purge the jsDelivr cache for
+   `gh/theprototype-app/scenes@format-2/index.json` (+ the two new files). Never `v2`: jsDelivr
+   resolves a semver-looking ref ONCE and a retag of it is a no-op forever (the root README's
+   Serving section, core #230).
 4. The modules `index.json` row for `dungeon-realms` already says `"template": "games/dungeon-realms"`
    — it becomes live the moment the tag moves. Both module zips (dungeon 2.0.0, dungeon-realms 2.0.0)
    must be on the modules CDN (`main`) BEFORE the tag moves, or the Games card installs 1.x.

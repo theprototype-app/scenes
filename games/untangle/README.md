@@ -20,8 +20,10 @@ Files: scene.tpscene 8946 B · thumb.webp 2802 B · index-row.json (bytes 8946).
 
 1. `cp scene.tpscene thumb.webp <scenes>/games/untangle/`
 2. Append `index-row.json` to the `games` array of `<scenes>/index.json`.
-3. Commit on a branch, PR to `main`, merge; `git tag -f v2 && git push -f origin v2`; purge the
-   jsDelivr cache for `gh/theprototype-app/scenes@v2/index.json` (+ the two new files).
+3. Commit on a branch, PR to `main`, merge; `git tag -f format-2 && git push -f origin format-2`;
+   purge the jsDelivr cache for `gh/theprototype-app/scenes@format-2/index.json` (+ the two new
+   files). Never `v2`: jsDelivr resolves a semver-looking ref ONCE and a retag of it is a no-op
+   forever (the root README's Serving section, core #230).
 4. THEN add `"template": "games/untangle"` to the `untangle` row of the modules repo `index.json`
    (deliberately NOT in the lane's modules commit, so the Browse card never points at a template
    before it is served). The `untangle` 2.0.0 zip must be on the modules CDN before the tag moves.
