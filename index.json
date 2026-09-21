@@ -175,6 +175,31 @@
 			"bytes": 8946,
 			"scene": "games/untangle/scene.tpscene",
 			"thumb": "games/untangle/thumb.webp"
+		},
+		{
+			"slug": "waves",
+			"title": "Waves",
+			"description": "Wave survival: hold the goal against waves of enemies walking in from the spawn points. Knock them down; the round ends when the last wave falls.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"vr",
+				"co-op",
+				"survival"
+			],
+			"modules": [
+				{
+					"id": "health",
+					"version": "1.0.0"
+				},
+				{
+					"id": "waves",
+					"version": "1.0.0"
+				}
+			],
+			"bytes": 11701,
+			"scene": "games/waves/scene.tpscene",
+			"thumb": "games/waves/thumb.webp"
 		}
 	],
 	"contests": [
