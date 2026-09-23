@@ -30,6 +30,54 @@
 			"bytes": 3720,
 			"scene": "templates/architecture-shell/scene.tpscene",
 			"thumb": "templates/architecture-shell/thumb.webp"
+		},
+		{
+			"slug": "castle-courtyard",
+			"title": "Castle Courtyard",
+			"description": "A walled courtyard built from the kits: towers, a gate, a rampart up a stair through an archway, a market stall and a well. Press Play to walk it.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"level design",
+				"kits",
+				"castle",
+				"walkable"
+			],
+			"bytes": 25169,
+			"scene": "templates/castle-courtyard/scene.tpscene",
+			"thumb": "templates/castle-courtyard/thumb.webp"
+		},
+		{
+			"slug": "forest-clearing",
+			"title": "Forest Clearing",
+			"description": "A clearing under a cliff: a stone path, a footbridge over the neck of a pond and a little plaster hut, ringed by oaks, pines and birches. Press Play to walk it.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"level design",
+				"kits",
+				"nature",
+				"walkable"
+			],
+			"bytes": 23232,
+			"scene": "templates/forest-clearing/scene.tpscene",
+			"thumb": "templates/forest-clearing/thumb.webp"
+		},
+		{
+			"slug": "tavern-interior",
+			"title": "Tavern Interior",
+			"description": "A two-storey tavern: a hall with a bar under the balcony, a kitchen with a hearth, and a loft up the oak stairs, lit warm by lanterns and torches. Press Play to walk it.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"level design",
+				"kits",
+				"interior",
+				"walkable"
+			],
+			"bytes": 23724,
+			"scene": "templates/tavern-interior/scene.tpscene",
+			"thumb": "templates/tavern-interior/thumb.webp"
 		}
 	],
 	"examples": [
@@ -63,7 +111,7 @@
 					"version": "1.1.2"
 				}
 			],
-			"bytes": 48715,
+			"bytes": 56288,
 			"scene": "games/towers/scene.tpscene",
 			"thumb": "games/towers/thumb.webp"
 		},
@@ -79,14 +127,14 @@
 				"sandbox",
 				"vr"
 			],
-			"bytes": 49647,
+			"bytes": 51383,
 			"scene": "games/stars-room/scene.tpscene",
 			"thumb": "games/stars-room/thumb.webp"
 		},
 		{
 			"slug": "football",
 			"title": "Football",
-			"description": "VR football: hit the floating ball with your hands, a ball through the other gate is a goal. Pick a side, Start, five goals wins. Colocation-ready.",
+			"description": "VR football: swing a controller through the floating ball and put it through the other gate. Hit the ball to kick off; first to 5 or 3:00, golden goal on a tie. Colocation-ready.",
 			"author": "theprototype",
 			"license": "CC0-1.0",
 			"tags": [
@@ -98,10 +146,10 @@
 			"modules": [
 				{
 					"id": "football",
-					"version": "1.1.0"
+					"version": "1.2.0"
 				}
 			],
-			"bytes": 105332,
+			"bytes": 105973,
 			"scene": "games/football/scene.tpscene",
 			"thumb": "games/football/thumb.webp"
 		},
@@ -122,10 +170,10 @@
 				},
 				{
 					"id": "music-fx",
-					"version": "0.1.0"
+					"version": "0.2.0"
 				}
 			],
-			"bytes": 67471,
+			"bytes": 86312,
 			"scene": "games/jam-room/scene.tpscene",
 			"thumb": "games/jam-room/thumb.webp"
 		},
@@ -144,14 +192,14 @@
 			"modules": [
 				{
 					"id": "dungeon",
-					"version": "2.1.0"
+					"version": "2.2.0"
 				},
 				{
 					"id": "dungeon-realms",
-					"version": "2.1.0"
+					"version": "2.2.0"
 				}
 			],
-			"bytes": 11418,
+			"bytes": 13187,
 			"scene": "games/dungeon-realms/scene.tpscene",
 			"thumb": "games/dungeon-realms/thumb.webp"
 		},
@@ -170,22 +218,23 @@
 			"modules": [
 				{
 					"id": "untangle",
-					"version": "2.1.0"
+					"version": "2.2.0"
 				}
 			],
-			"bytes": 20554,
+			"bytes": 20559,
 			"scene": "games/untangle/scene.tpscene",
 			"thumb": "games/untangle/thumb.webp"
 		},
 		{
 			"slug": "waves",
 			"title": "Waves",
-			"description": "Wave survival: hold the goal against waves of enemies walking in from the spawn points. Knock them down; the round ends when the last wave falls.",
+			"description": "A VR shooter: hold the crystal against five levels of waves — grunts, runners and tanks pouring out of the portals. Pick a gun and an ability; shoot them down before they reach it.",
 			"author": "theprototype",
 			"license": "CC0-1.0",
 			"tags": [
 				"vr",
 				"co-op",
+				"shooter",
 				"survival"
 			],
 			"modules": [
@@ -195,10 +244,10 @@
 				},
 				{
 					"id": "waves",
-					"version": "1.1.0"
+					"version": "2.1.0"
 				}
 			],
-			"bytes": 167442,
+			"bytes": 321604,
 			"scene": "games/waves/scene.tpscene",
 			"thumb": "games/waves/thumb.webp"
 		}
