@@ -213,10 +213,10 @@
 			"modules": [
 				{
 					"id": "untangle",
-					"version": "2.3.0"
+					"version": "2.3.1"
 				}
 			],
-			"bytes": 20256,
+			"bytes": 20240,
 			"scene": "games/untangle/scene.tpscene",
 			"thumb": "games/untangle/thumb.webp"
 		},
