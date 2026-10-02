@@ -24,10 +24,17 @@
 		{
 			"slug": "architecture-shell",
 			"title": "Architecture shell",
-			"description": "Room shell with a door and window opening, columns and a half roof to block out interiors",
+			"description": "A room shell built from the kits to block interiors out in: sandstone walls on flagstones, a door that opens, a window with shutters, columns, ceiling beams and a slate half roof. Press Play and walk in.",
 			"author": "theprototype",
 			"license": "CC0-1.0",
-			"bytes": 3720,
+			"tags": [
+				"greybox",
+				"architecture",
+				"kits",
+				"walkable",
+				"doors"
+			],
+			"bytes": 12175,
 			"scene": "templates/architecture-shell/scene.tpscene",
 			"thumb": "templates/architecture-shell/thumb.webp"
 		},
@@ -43,7 +50,7 @@
 				"castle",
 				"walkable"
 			],
-			"bytes": 25169,
+			"bytes": 26125,
 			"scene": "templates/castle-courtyard/scene.tpscene",
 			"thumb": "templates/castle-courtyard/thumb.webp"
 		},
@@ -59,25 +66,61 @@
 				"nature",
 				"walkable"
 			],
-			"bytes": 23232,
+			"bytes": 24198,
 			"scene": "templates/forest-clearing/scene.tpscene",
 			"thumb": "templates/forest-clearing/thumb.webp"
 		},
 		{
 			"slug": "tavern-interior",
 			"title": "Tavern Interior",
-			"description": "A two-storey tavern: a hall with a bar under the balcony, a kitchen with a hearth, and a loft up the oak stairs, lit warm by lanterns and torches. Press Play to walk it.",
+			"description": "A two-storey tavern on a market street: the doors open, the shutters close, the loft chest lifts its lid. A bar and back-bar, a fireplace, a kitchen and a loft, furnished from the Interiors kit. Press Play and walk in.",
 			"author": "theprototype",
 			"license": "CC0-1.0",
 			"tags": [
 				"level design",
 				"kits",
 				"interior",
-				"walkable"
+				"walkable",
+				"doors"
 			],
-			"bytes": 23724,
+			"bytes": 33355,
 			"scene": "templates/tavern-interior/scene.tpscene",
 			"thumb": "templates/tavern-interior/thumb.webp"
+		},
+		{
+			"slug": "wizards-tower",
+			"title": "Wizard’s Tower",
+			"description": "A three-storey stone tower at dusk: an alchemy lab with a trapdoor and a chest, a study with a lectern and drawers, a bedchamber, and a roof terrace with a telescope. Doors, lids and shutters open. Press Play and climb it.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"level design",
+				"kits",
+				"interior",
+				"walkable",
+				"doors",
+				"fantasy"
+			],
+			"bytes": 24397,
+			"scene": "templates/wizards-tower/scene.tpscene",
+			"thumb": "templates/wizards-tower/thumb.webp"
+		},
+		{
+			"slug": "market-square",
+			"title": "Market Town Square",
+			"description": "A market square built from the Town & Market kit: a fountain, stalls, a well, a clock tower and cottages round it — and a bakery whose door and shutters open. Press Play to walk it.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"level design",
+				"kits",
+				"town",
+				"walkable",
+				"doors"
+			],
+			"bytes": 28754,
+			"scene": "templates/market-square/scene.tpscene",
+			"thumb": "templates/market-square/thumb.webp"
 		}
 	],
 	"examples": [
@@ -106,7 +149,7 @@
 				"co-op",
 				"vr"
 			],
-			"bytes": 56917,
+			"bytes": 64397,
 			"scene": "games/towers/scene.tpscene",
 			"thumb": "games/towers/thumb.webp"
 		},
@@ -122,7 +165,7 @@
 				"sandbox",
 				"vr"
 			],
-			"bytes": 52631,
+			"bytes": 54618,
 			"scene": "games/stars-room/scene.tpscene",
 			"thumb": "games/stars-room/thumb.webp"
 		},
@@ -144,7 +187,7 @@
 					"version": "1.3.0"
 				}
 			],
-			"bytes": 104321,
+			"bytes": 108932,
 			"scene": "games/football/scene.tpscene",
 			"thumb": "games/football/thumb.webp"
 		},
@@ -168,7 +211,7 @@
 					"version": "0.2.0"
 				}
 			],
-			"bytes": 86306,
+			"bytes": 96331,
 			"scene": "games/jam-room/scene.tpscene",
 			"thumb": "games/jam-room/thumb.webp"
 		},
@@ -194,7 +237,7 @@
 					"version": "2.3.0"
 				}
 			],
-			"bytes": 13099,
+			"bytes": 13640,
 			"scene": "games/dungeon-realms/scene.tpscene",
 			"thumb": "games/dungeon-realms/thumb.webp"
 		},
@@ -213,10 +256,10 @@
 			"modules": [
 				{
 					"id": "untangle",
-					"version": "2.3.1"
+					"version": "2.4.0"
 				}
 			],
-			"bytes": 20240,
+			"bytes": 21323,
 			"scene": "games/untangle/scene.tpscene",
 			"thumb": "games/untangle/thumb.webp"
 		},
@@ -242,7 +285,7 @@
 					"version": "2.2.0"
 				}
 			],
-			"bytes": 321759,
+			"bytes": 331925,
 			"scene": "games/waves/scene.tpscene",
 			"thumb": "games/waves/thumb.webp"
 		}
