@@ -34,7 +34,7 @@
 				"walkable",
 				"doors"
 			],
-			"bytes": 12175,
+			"bytes": 12238,
 			"scene": "templates/architecture-shell/scene.tpscene",
 			"thumb": "templates/architecture-shell/thumb.webp"
 		},
@@ -50,7 +50,7 @@
 				"castle",
 				"walkable"
 			],
-			"bytes": 26125,
+			"bytes": 26146,
 			"scene": "templates/castle-courtyard/scene.tpscene",
 			"thumb": "templates/castle-courtyard/thumb.webp"
 		},
@@ -66,7 +66,7 @@
 				"nature",
 				"walkable"
 			],
-			"bytes": 24198,
+			"bytes": 24208,
 			"scene": "templates/forest-clearing/scene.tpscene",
 			"thumb": "templates/forest-clearing/thumb.webp"
 		},
@@ -83,7 +83,7 @@
 				"walkable",
 				"doors"
 			],
-			"bytes": 33355,
+			"bytes": 33359,
 			"scene": "templates/tavern-interior/scene.tpscene",
 			"thumb": "templates/tavern-interior/thumb.webp"
 		},
@@ -101,7 +101,7 @@
 				"doors",
 				"fantasy"
 			],
-			"bytes": 24397,
+			"bytes": 24407,
 			"scene": "templates/wizards-tower/scene.tpscene",
 			"thumb": "templates/wizards-tower/thumb.webp"
 		},
@@ -118,7 +118,7 @@
 				"walkable",
 				"doors"
 			],
-			"bytes": 28754,
+			"bytes": 28660,
 			"scene": "templates/market-square/scene.tpscene",
 			"thumb": "templates/market-square/thumb.webp"
 		}
@@ -149,7 +149,7 @@
 				"co-op",
 				"vr"
 			],
-			"bytes": 64397,
+			"bytes": 64412,
 			"scene": "games/towers/scene.tpscene",
 			"thumb": "games/towers/thumb.webp"
 		},
@@ -165,7 +165,7 @@
 				"sandbox",
 				"vr"
 			],
-			"bytes": 54618,
+			"bytes": 54712,
 			"scene": "games/stars-room/scene.tpscene",
 			"thumb": "games/stars-room/thumb.webp"
 		},
@@ -187,7 +187,7 @@
 					"version": "1.3.0"
 				}
 			],
-			"bytes": 108932,
+			"bytes": 108912,
 			"scene": "games/football/scene.tpscene",
 			"thumb": "games/football/thumb.webp"
 		},
@@ -211,7 +211,7 @@
 					"version": "0.2.0"
 				}
 			],
-			"bytes": 96331,
+			"bytes": 96341,
 			"scene": "games/jam-room/scene.tpscene",
 			"thumb": "games/jam-room/thumb.webp"
 		},
@@ -237,7 +237,7 @@
 					"version": "2.3.0"
 				}
 			],
-			"bytes": 13640,
+			"bytes": 13607,
 			"scene": "games/dungeon-realms/scene.tpscene",
 			"thumb": "games/dungeon-realms/thumb.webp"
 		},
@@ -259,7 +259,7 @@
 					"version": "2.4.0"
 				}
 			],
-			"bytes": 21323,
+			"bytes": 21332,
 			"scene": "games/untangle/scene.tpscene",
 			"thumb": "games/untangle/thumb.webp"
 		},
@@ -282,10 +282,10 @@
 				},
 				{
 					"id": "waves",
-					"version": "2.2.0"
+					"version": "2.3.0"
 				}
 			],
-			"bytes": 331925,
+			"bytes": 331934,
 			"scene": "games/waves/scene.tpscene",
 			"thumb": "games/waves/thumb.webp"
 		}
