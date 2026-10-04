@@ -34,7 +34,7 @@
 				"walkable",
 				"doors"
 			],
-			"bytes": 12175,
+			"bytes": 12238,
 			"scene": "templates/architecture-shell/scene.tpscene",
 			"thumb": "templates/architecture-shell/thumb.webp"
 		},
@@ -50,7 +50,7 @@
 				"castle",
 				"walkable"
 			],
-			"bytes": 26125,
+			"bytes": 26146,
 			"scene": "templates/castle-courtyard/scene.tpscene",
 			"thumb": "templates/castle-courtyard/thumb.webp"
 		},
@@ -66,7 +66,7 @@
 				"nature",
 				"walkable"
 			],
-			"bytes": 24198,
+			"bytes": 24208,
 			"scene": "templates/forest-clearing/scene.tpscene",
 			"thumb": "templates/forest-clearing/thumb.webp"
 		},
@@ -83,7 +83,7 @@
 				"walkable",
 				"doors"
 			],
-			"bytes": 33355,
+			"bytes": 33359,
 			"scene": "templates/tavern-interior/scene.tpscene",
 			"thumb": "templates/tavern-interior/thumb.webp"
 		},
@@ -101,7 +101,7 @@
 				"doors",
 				"fantasy"
 			],
-			"bytes": 24397,
+			"bytes": 24407,
 			"scene": "templates/wizards-tower/scene.tpscene",
 			"thumb": "templates/wizards-tower/thumb.webp"
 		},
@@ -118,7 +118,7 @@
 				"walkable",
 				"doors"
 			],
-			"bytes": 28754,
+			"bytes": 28660,
 			"scene": "templates/market-square/scene.tpscene",
 			"thumb": "templates/market-square/thumb.webp"
 		}
@@ -149,7 +149,7 @@
 				"co-op",
 				"vr"
 			],
-			"bytes": 64397,
+			"bytes": 64412,
 			"scene": "games/towers/scene.tpscene",
 			"thumb": "games/towers/thumb.webp"
 		},
@@ -165,7 +165,7 @@
 				"sandbox",
 				"vr"
 			],
-			"bytes": 54618,
+			"bytes": 54712,
 			"scene": "games/stars-room/scene.tpscene",
 			"thumb": "games/stars-room/thumb.webp"
 		},
@@ -187,7 +187,7 @@
 					"version": "1.3.0"
 				}
 			],
-			"bytes": 108932,
+			"bytes": 108912,
 			"scene": "games/football/scene.tpscene",
 			"thumb": "games/football/thumb.webp"
 		},
@@ -211,7 +211,7 @@
 					"version": "0.2.0"
 				}
 			],
-			"bytes": 96331,
+			"bytes": 96341,
 			"scene": "games/jam-room/scene.tpscene",
 			"thumb": "games/jam-room/thumb.webp"
 		},
@@ -237,7 +237,7 @@
 					"version": "2.3.0"
 				}
 			],
-			"bytes": 13640,
+			"bytes": 13607,
 			"scene": "games/dungeon-realms/scene.tpscene",
 			"thumb": "games/dungeon-realms/thumb.webp"
 		},
@@ -259,7 +259,7 @@
 					"version": "2.4.0"
 				}
 			],
-			"bytes": 21323,
+			"bytes": 21332,
 			"scene": "games/untangle/scene.tpscene",
 			"thumb": "games/untangle/thumb.webp"
 		},
@@ -282,12 +282,95 @@
 				},
 				{
 					"id": "waves",
-					"version": "2.2.0"
+					"version": "2.3.0"
 				}
 			],
-			"bytes": 331925,
+			"bytes": 331934,
 			"scene": "games/waves/scene.tpscene",
 			"thumb": "games/waves/thumb.webp"
+		},
+		{
+			"slug": "escape-room",
+			"title": "The Alchemist's Escape",
+			"description": "An escape game in three rooms: open the drawer, find the key, unlock the chest, set the dials, pull the levers in the right order and TWIST the crank to raise the gate — then put three gems on their pedestals and get out. Hints after a minute; your best time is saved.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"puzzle",
+				"escape room",
+				"quest",
+				"co-op",
+				"vr"
+			],
+			"bytes": 26297,
+			"scene": "games/escape-room/scene.tpscene",
+			"thumb": "games/escape-room/thumb.webp"
+		},
+		{
+			"slug": "marble-maze",
+			"title": "Marble Maze",
+			"description": "Tilt the wooden board and roll the marble to the gold goal. Five mazes, holes that send you back, coins to collect and gates that rise and sink. Mouse or WASD on a desktop; in VR grab both handles and twist. 1-3 stars a maze.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"physics",
+				"puzzle",
+				"tilt",
+				"vr"
+			],
+			"bytes": 59019,
+			"scene": "games/marble-maze/scene.tpscene",
+			"thumb": "games/marble-maze/thumb.webp"
+		},
+		{
+			"slug": "mini-golf",
+			"title": "Mini Golf",
+			"description": "Six holes of mini golf: a ramp, a windmill, a bank shot, a sand trap and a hump. Drag back from the ball and let go to putt, or swing a putter in VR. Par for each hole, a scorecard at the end, your best round saved on this device.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"sports",
+				"golf",
+				"physics",
+				"casual",
+				"vr"
+			],
+			"bytes": 25307,
+			"scene": "games/mini-golf/scene.tpscene",
+			"thumb": "games/mini-golf/thumb.webp"
+		},
+		{
+			"slug": "sky-run",
+			"title": "Sky Run",
+			"description": "A floating obstacle course in the clouds: three stages of jumps, moving platforms, vanishing tiles and spinning arms. Flags save your spot, coins and par times earn stars, and your best time is kept on this device.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"platformer",
+				"obby",
+				"parkour",
+				"co-op",
+				"vr"
+			],
+			"bytes": 123985,
+			"scene": "games/sky-run/scene.tpscene",
+			"thumb": "games/sky-run/thumb.webp"
+		},
+		{
+			"slug": "target-toss",
+			"title": "Target Toss",
+			"description": "A fairground booth: throw balls at tin-can pyramids, swinging targets, pop-ups and a moving cart. Five stages against the clock, combos for quick hits, 1-3 stars a stage saved on this device. Grab and throw in VR; hold and release the mouse on a desktop.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"physics",
+				"throwing",
+				"arcade",
+				"vr"
+			],
+			"bytes": 31246,
+			"scene": "games/target-toss/scene.tpscene",
+			"thumb": "games/target-toss/thumb.webp"
 		}
 	],
 	"contests": [
