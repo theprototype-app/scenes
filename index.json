@@ -173,7 +173,7 @@
 				"water",
 				"showcase"
 			],
-			"bytes": 26948,
+			"bytes": 27208,
 			"scene": "examples/island-ocean/scene.tpscene",
 			"thumb": "examples/island-ocean/thumb.webp"
 		},
@@ -473,7 +473,7 @@
 				"multiplayer",
 				"physics"
 			],
-			"bytes": 283191,
+			"bytes": 231822,
 			"scene": "games/race/scene.tpscene",
 			"thumb": "games/race/thumb.webp"
 		}
