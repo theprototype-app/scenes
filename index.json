@@ -159,7 +159,7 @@
 				"physics",
 				"showcase"
 			],
-			"bytes": 36967,
+			"bytes": 36422,
 			"scene": "examples/pool-party/scene.tpscene",
 			"thumb": "examples/pool-party/thumb.webp"
 		},
@@ -173,7 +173,7 @@
 				"water",
 				"showcase"
 			],
-			"bytes": 30641,
+			"bytes": 26772,
 			"scene": "examples/island-ocean/scene.tpscene",
 			"thumb": "examples/island-ocean/thumb.webp"
 		},
@@ -188,7 +188,7 @@
 				"jiggle",
 				"toy"
 			],
-			"bytes": 65933,
+			"bytes": 65630,
 			"scene": "examples/jelly-room/scene.tpscene",
 			"thumb": "examples/jelly-room/thumb.webp"
 		},
@@ -203,7 +203,7 @@
 				"fluid",
 				"toy"
 			],
-			"bytes": 10375,
+			"bytes": 10223,
 			"scene": "examples/fluid-tank-toy/scene.tpscene",
 			"thumb": "examples/fluid-tank-toy/thumb.webp"
 		}
