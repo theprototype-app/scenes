@@ -222,7 +222,7 @@
 				"co-op",
 				"vr"
 			],
-			"bytes": 64412,
+			"bytes": 64462,
 			"scene": "games/towers/scene.tpscene",
 			"thumb": "games/towers/thumb.webp"
 		},
@@ -238,7 +238,7 @@
 				"sandbox",
 				"vr"
 			],
-			"bytes": 54712,
+			"bytes": 54818,
 			"scene": "games/stars-room/scene.tpscene",
 			"thumb": "games/stars-room/thumb.webp"
 		},
@@ -257,10 +257,10 @@
 			"modules": [
 				{
 					"id": "football",
-					"version": "1.3.0"
+					"version": "1.4.0"
 				}
 			],
-			"bytes": 108912,
+			"bytes": 119648,
 			"scene": "games/football/scene.tpscene",
 			"thumb": "games/football/thumb.webp"
 		},
@@ -284,7 +284,7 @@
 					"version": "0.2.0"
 				}
 			],
-			"bytes": 96341,
+			"bytes": 96482,
 			"scene": "games/jam-room/scene.tpscene",
 			"thumb": "games/jam-room/thumb.webp"
 		},
@@ -307,10 +307,10 @@
 				},
 				{
 					"id": "dungeon-realms",
-					"version": "2.3.0"
+					"version": "2.4.0"
 				}
 			],
-			"bytes": 13607,
+			"bytes": 19163,
 			"scene": "games/dungeon-realms/scene.tpscene",
 			"thumb": "games/dungeon-realms/thumb.webp"
 		},
@@ -332,7 +332,7 @@
 					"version": "2.4.0"
 				}
 			],
-			"bytes": 21332,
+			"bytes": 21362,
 			"scene": "games/untangle/scene.tpscene",
 			"thumb": "games/untangle/thumb.webp"
 		},
@@ -358,7 +358,7 @@
 					"version": "2.3.0"
 				}
 			],
-			"bytes": 331934,
+			"bytes": 332041,
 			"scene": "games/waves/scene.tpscene",
 			"thumb": "games/waves/thumb.webp"
 		},
@@ -375,7 +375,7 @@
 				"co-op",
 				"vr"
 			],
-			"bytes": 26297,
+			"bytes": 30723,
 			"scene": "games/escape-room/scene.tpscene",
 			"thumb": "games/escape-room/thumb.webp"
 		},
@@ -391,7 +391,7 @@
 				"tilt",
 				"vr"
 			],
-			"bytes": 59019,
+			"bytes": 63605,
 			"scene": "games/marble-maze/scene.tpscene",
 			"thumb": "games/marble-maze/thumb.webp"
 		},
@@ -408,7 +408,7 @@
 				"casual",
 				"vr"
 			],
-			"bytes": 25307,
+			"bytes": 41015,
 			"scene": "games/mini-golf/scene.tpscene",
 			"thumb": "games/mini-golf/thumb.webp"
 		},
@@ -425,7 +425,7 @@
 				"co-op",
 				"vr"
 			],
-			"bytes": 123985,
+			"bytes": 133779,
 			"scene": "games/sky-run/scene.tpscene",
 			"thumb": "games/sky-run/thumb.webp"
 		},
@@ -441,7 +441,7 @@
 				"arcade",
 				"vr"
 			],
-			"bytes": 31246,
+			"bytes": 36404,
 			"scene": "games/target-toss/scene.tpscene",
 			"thumb": "games/target-toss/thumb.webp"
 		}
