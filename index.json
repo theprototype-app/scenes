@@ -444,6 +444,22 @@
 			"bytes": 36404,
 			"scene": "games/target-toss/scene.tpscene",
 			"thumb": "games/target-toss/thumb.webp"
+		},
+		{
+			"slug": "race",
+			"title": "Race",
+			"description": "Four cars, a circuit in a valley of mountains, three laps. Click a car, press Start, and race your friends: a lap counts only when you have driven all of it. Edit the road and the race follows; change laps, speed and grip on the Race rules node.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"racing",
+				"driving",
+				"multiplayer",
+				"physics"
+			],
+			"bytes": 231834,
+			"scene": "games/race/scene.tpscene",
+			"thumb": "games/race/thumb.webp"
 		}
 	],
 	"contests": [
