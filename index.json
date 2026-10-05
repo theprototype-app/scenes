@@ -133,6 +133,79 @@
 			"bytes": 3380,
 			"scene": "examples/lighthouse-island/scene.tpscene",
 			"thumb": "examples/lighthouse-island/thumb.webp"
+		},
+		{
+			"slug": "aquarium",
+			"title": "Aquarium",
+			"description": "A glass tank of water with fish swimming loops, plants, rocks and bubbles rising from an air stone",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"water",
+				"showcase"
+			],
+			"bytes": 77061,
+			"scene": "examples/aquarium/scene.tpscene",
+			"thumb": "examples/aquarium/thumb.webp"
+		},
+		{
+			"slug": "pool-party",
+			"title": "Pool party",
+			"description": "A pool on a sunny deck with a beach ball, rings and a lilo floating on the water",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"water",
+				"physics",
+				"showcase"
+			],
+			"bytes": 36967,
+			"scene": "examples/pool-party/scene.tpscene",
+			"thumb": "examples/pool-party/thumb.webp"
+		},
+		{
+			"slug": "island-ocean",
+			"title": "Island ocean",
+			"description": "A palm island with a jetty and a boat in an open ocean with rolling waves, at golden hour",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"water",
+				"showcase"
+			],
+			"bytes": 30641,
+			"scene": "examples/island-ocean/scene.tpscene",
+			"thumb": "examples/island-ocean/thumb.webp"
+		},
+		{
+			"slug": "jelly-room",
+			"title": "Jelly room",
+			"description": "Wobbly jelly cubes (the Jiggle node) — press P to drop them, drag one to watch it lag and overshoot",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"physics",
+				"jiggle",
+				"toy"
+			],
+			"bytes": 65933,
+			"scene": "examples/jelly-room/scene.tpscene",
+			"thumb": "examples/jelly-room/thumb.webp"
+		},
+		{
+			"slug": "fluid-tank-toy",
+			"title": "Fluid tank toy",
+			"description": "Particle fluid in glass tanks — a pour-and-drain loop with floating ducks, and a slow honey tank. Move a tank to slosh it",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"simulation",
+				"fluid",
+				"toy"
+			],
+			"bytes": 10375,
+			"scene": "examples/fluid-tank-toy/scene.tpscene",
+			"thumb": "examples/fluid-tank-toy/thumb.webp"
 		}
 	],
 	"games": [
