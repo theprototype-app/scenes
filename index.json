@@ -206,6 +206,22 @@
 			"bytes": 10375,
 			"scene": "examples/fluid-tank-toy/scene.tpscene",
 			"thumb": "examples/fluid-tank-toy/thumb.webp"
+		},
+		{
+			"slug": "water-works",
+			"title": "Water works",
+			"description": "A closed loop of particle water on a diorama: a scoop wheel lifts it, a head-race carries it to a fountain, a chute brings it home — leaves and boats ride along. Fluid emitter, flow paths, Rotate / Motor, Float Along Flow",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"simulation",
+				"fluid",
+				"water",
+				"diorama"
+			],
+			"bytes": 110415,
+			"scene": "examples/water-works/scene.tpscene",
+			"thumb": "examples/water-works/thumb.webp"
 		}
 	],
 	"games": [
