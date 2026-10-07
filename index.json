@@ -473,7 +473,7 @@
 				"multiplayer",
 				"physics"
 			],
-			"bytes": 231822,
+			"bytes": 232066,
 			"scene": "games/race/scene.tpscene",
 			"thumb": "games/race/thumb.webp"
 		}
