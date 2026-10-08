@@ -137,14 +137,14 @@
 		{
 			"slug": "aquarium",
 			"title": "Aquarium",
-			"description": "A glass tank of water with fish swimming loops, plants, rocks and bubbles rising from an air stone",
+			"description": "A reef tank: clownfish, blue tangs and angelfish swimming with the motion nodes (Follow Path, Wander, Body Wave) among coral, plants and an air stone",
 			"author": "theprototype",
 			"license": "CC0-1.0",
 			"tags": [
 				"water",
 				"showcase"
 			],
-			"bytes": 76728,
+			"bytes": 236549,
 			"scene": "examples/aquarium/scene.tpscene",
 			"thumb": "examples/aquarium/thumb.webp"
 		},
