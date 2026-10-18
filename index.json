@@ -276,7 +276,7 @@
 					"version": "1.4.0"
 				}
 			],
-			"bytes": 119599,
+			"bytes": 112472,
 			"scene": "games/football/scene.tpscene",
 			"thumb": "games/football/thumb.webp"
 		},
@@ -326,7 +326,7 @@
 					"version": "2.4.0"
 				}
 			],
-			"bytes": 19077,
+			"bytes": 18679,
 			"scene": "games/dungeon-realms/scene.tpscene",
 			"thumb": "games/dungeon-realms/thumb.webp"
 		},
