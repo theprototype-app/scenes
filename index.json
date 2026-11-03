@@ -153,6 +153,22 @@
 			"bytes": 4454,
 			"scene": "templates/agent-workshop/scene.tpscene",
 			"thumb": "templates/agent-workshop/thumb.webp"
+		},
+		{
+			"slug": "topple-tower",
+			"title": "Topple tower",
+			"description": "A tiny game set up for sharing: walk up and knock the tower and the dominos over. Change it, then Menu ▸ Publish and send the play link — it opens straight into the game, fast on a phone.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"share",
+				"play link",
+				"physics",
+				"starter"
+			],
+			"bytes": 66590,
+			"scene": "templates/topple-tower/scene.tpscene",
+			"thumb": "templates/topple-tower/thumb.webp"
 		}
 	],
 	"examples": [
