@@ -121,6 +121,22 @@
 			"bytes": 28660,
 			"scene": "templates/market-square/scene.tpscene",
 			"thumb": "templates/market-square/thumb.webp"
+		},
+		{
+			"slug": "shader-garden",
+			"title": "Shader garden",
+			"description": "Three objects in your own GLSL — sliding stripes, a breathing glow and a rim light. Open the shader editor, press </> and change a line.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"shaders",
+				"glsl",
+				"materials",
+				"starter"
+			],
+			"bytes": 4411,
+			"scene": "templates/shader-garden/scene.tpscene",
+			"thumb": "templates/shader-garden/thumb.webp"
 		}
 	],
 	"examples": [
