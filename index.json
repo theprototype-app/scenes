@@ -185,6 +185,23 @@
 			"bytes": 13275,
 			"scene": "templates/film-set/scene.tpscene",
 			"thumb": "templates/film-set/thumb.webp"
+		},
+		{
+			"slug": "game-plot",
+			"title": "Game plot",
+			"description": "An empty plot for Claude to turn into a game: ask for hills with a forest and a lake, a campfire that crackles, a race HUD and a start spot — then “check my game”.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"ai",
+				"agent",
+				"claude",
+				"starter",
+				"game"
+			],
+			"bytes": 4302,
+			"scene": "templates/game-plot/scene.tpscene",
+			"thumb": "templates/game-plot/thumb.webp"
 		}
 	],
 	"examples": [
