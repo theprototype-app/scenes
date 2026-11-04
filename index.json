@@ -169,6 +169,22 @@
 			"bytes": 66590,
 			"scene": "templates/topple-tower/scene.tpscene",
 			"thumb": "templates/topple-tower/thumb.webp"
+		},
+		{
+			"slug": "film-set",
+			"title": "Film set",
+			"description": "A small stage that keeps moving, and a camera to film it with. On a phone: More ▸ Film with phone, press ● and turn or walk to move the camera, then Export video for an MP4.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"film",
+				"camera",
+				"video",
+				"starter"
+			],
+			"bytes": 13275,
+			"scene": "templates/film-set/scene.tpscene",
+			"thumb": "templates/film-set/thumb.webp"
 		}
 	],
 	"examples": [
