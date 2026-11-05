@@ -202,6 +202,22 @@
 			"bytes": 4302,
 			"scene": "templates/game-plot/scene.tpscene",
 			"thumb": "templates/game-plot/thumb.webp"
+		},
+		{
+			"slug": "text-sign",
+			"title": "Text sign",
+			"description": "A shop sign with solid bevelled letters and a flat title above it: click a text to change its words, font, depth and bevel in the Inspector, or ask Claude for a sign of your own.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"text",
+				"sign",
+				"starter",
+				"3d text"
+			],
+			"bytes": 4779,
+			"scene": "templates/text-sign/scene.tpscene",
+			"thumb": "templates/text-sign/thumb.webp"
 		}
 	],
 	"examples": [
