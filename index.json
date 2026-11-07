@@ -218,6 +218,23 @@
 			"bytes": 4779,
 			"scene": "templates/text-sign/scene.tpscene",
 			"thumb": "templates/text-sign/thumb.webp"
+		},
+		{
+			"slug": "product-shot",
+			"title": "Product shot",
+			"description": "A pedestal with a glossy knot, a glass ball and a gold cube under the Product shot look: press Bake light for soft shadows, then Photo… for a path-traced still, or try the Cinematic and Stylised presets.",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"pro look",
+				"bake",
+				"photo",
+				"starter",
+				"lighting"
+			],
+			"bytes": 5253,
+			"scene": "templates/product-shot/scene.tpscene",
+			"thumb": "templates/product-shot/thumb.webp"
 		}
 	],
 	"examples": [
