@@ -157,7 +157,7 @@
 		{
 			"slug": "topple-tower",
 			"title": "Topple tower",
-			"description": "A tiny game set up for sharing: walk up and knock the tower and the dominos over. Change it, then Menu ▸ Publish and send the play link — it opens straight into the game, fast on a phone.",
+			"description": "A tiny game set up for sharing: walk up and knock the tower and the dominos over. Change it, then Menu ▸ Publish and send the play link — it opens straight into the game, fast on a phone. Players can press F8 to share the last 10 s as a GIF.",
 			"author": "theprototype",
 			"license": "CC0-1.0",
 			"tags": [
@@ -166,7 +166,7 @@
 				"physics",
 				"starter"
 			],
-			"bytes": 66590,
+			"bytes": 66505,
 			"scene": "templates/topple-tower/scene.tpscene",
 			"thumb": "templates/topple-tower/thumb.webp"
 		},
