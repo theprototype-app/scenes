@@ -265,6 +265,27 @@
 			"bytes": 15351,
 			"scene": "templates/starter-recipes/scene.tpscene",
 			"thumb": "templates/starter-recipes/thumb.webp"
+		},
+		{
+			"slug": "guard-patrol",
+			"title": "A guard on patrol",
+			"description": "A starter enemy: a guard walks its round, spots you, chases you round the walls and gives up when it loses you",
+			"author": "theprototype",
+			"license": "CC0-1.0",
+			"tags": [
+				"game",
+				"enemy",
+				"navigation"
+			],
+			"modules": [
+				{
+					"id": "navigation",
+					"version": "1.0.0"
+				}
+			],
+			"bytes": 15309,
+			"scene": "templates/guard-patrol/scene.tpscene",
+			"thumb": "templates/guard-patrol/thumb.webp"
 		}
 	],
 	"examples": [
